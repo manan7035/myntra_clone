@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+    header{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1.7px solid #b6b1b1;
+        /* position: fixed; */
+        width: 100%;
+        background-color: white;
+    }
+    #logo{
+        height: 52px;
+        width: 65px;
+        margin-left: 30px;
+    }
+    .action_bar{
+        margin-right: 4%;
+    }
+    .nav_bar{
+        display: flex;
+        min-width: 500px;
+        justify-content: space-between;
+    }
+    .nav_bar a{
+        font-size: 15px;
+        letter-spacing: 0.3px;
+        color: #282c3f;
+        font-weight: 650;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 25px 0px;
+        border-bottom: 2px solid #b6b1b1;
+    }
+    .nav_bar a:hover{
+        border-bottom: 2.4px solid rgb(187, 36, 36);
+    }
+    .nav_bar a sup{
+        color:red ;
+        font-size: 9px;   
+    }
+
+
+    /* search bar */
+    .search_bar{
+        height: 40px;
+        min-width: 200px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+
+    }
+    .search{
+        color: #696e79;
+        background-color: #f5f5f6;
+        border: 0;
+        flex-grow: 1;
+        height: 40px;
+        padding: 2px;
+        border-radius: 0 4px 4px 0;
+
+    }
+    .logo_and_search {
+        box-sizing: content-box;
+        height: 20px;
+        padding: 10px;
+        background-color: #f5f5f6;
+        color: #282c3f;
+        border-radius: 4px 0 0 4px;
+    }
+
+    /* action bar */
+    .action_bar{
+        display: flex;
+        margin-top: 17px;
+        min-width: 180px;
+        justify-content: space-evenly;
+    }
+    .action_con{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #282c3f;
+        font-weight: 550;
+    }
+    .action_bar a{
+        text-decoration: none;
+    }
+    .bag_count{
+        background-color: #f16565;
+        white-space: nowrap;
+        text-align: center;
+        line-height: 18px;
+        padding: 0 6px;
+        height: 18px;
+        position: relative;
+        border-radius: 50%;
+        font-size: 12px;
+        color: #fff;
+        left: 13px;
+        top: -44px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    /* side bar */
+    .info{
+        margin:25px;
+        margin-left: 35px;
+        }
+    .info a{
+        text-decoration: none;
+        color:#282c3f;
+        font-size: 16px;
+    }
+    #pro{
+        font-weight: 670;
+    }
+    .filer_heading{
+        width: 290px;
+        min-width: 200px; 
+        margin-bottom: 6px;
+    }
+    .filer_heading h4{
+        margin-left: 35px;
+    }
+    .filer_heading span a{
+        font-weight: 650;
+        font-size: 14px;
+        margin-top: 3px;
+        margin-left: 75px;
+        color: rgb(225, 72, 148);
+        text-decoration: none;
+    }
+    .filter{
+        display: flex;    
+    }
+    .filter .type{
+        height: 150vh;
+        width: 290px;
+        border-top: 1px solid #b8b8b8;
+    }
+    .filter .option{
+        margin-top: 11px;
+        line-height: 26px;
+        height: 120px;
+        padding: 10px;
+    }
+    .filter .option input{
+        margin-left: 25px;
+        
+    }
+    .filter .cate{
+        margin-left: 25px;
+        margin-top: 11px;
+        line-height: 26px;
+        padding: 10px;
+    }
+    .cate h4{
+        margin-bottom: 8px;
+    }
+    .filter .brand{
+        margin-left: 25px;
+        margin-top: 11px;
+        line-height: 26px;
+        padding: 10px;
+    }
+    .brand h4{
+        margin-bottom: 8px;
+    }
+    .filter .color{
+        margin-left: 25px;
+        margin-top: 11px;
+        line-height: 26px;   
+        padding: 10px;
+    }
+    .color h4{
+        margin-bottom: 8px;
+    }
+    .filter .price{
+        margin-left: 25px;
+        margin-top: 11px;
+        line-height: 26px;
+        padding: 10px;
+    }
+    .price h4{
+        margin-bottom: 8px;
+    }
+    .filter .btn a{
+        text-decoration: none;
+        background-color: rgb(225, 72, 148);
+        color:whitesmoke;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        height: 26px;
+        margin-left: 75px;
+        border-radius: 12px;
+    }
+
+    /* right side */
+    .right_side_bar{
+        width: 100%;
+        height: 130vh;
+        margin-left: 15px;
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .right_side_bar .image{
+        width: 100%;
+        height: 240px;
+       }
+       .container_2{
+        width: 200px;
+        margin:0px 17px;
+       }
+       .company_name{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1;
+        color: #282c3f;
+        margin-bottom: 6px;
+        white-space: nowrap;
+        margin-top: 11px;
+       }
+       .rating{
+        font-size: 12px;
+        font-weight: 700;
+       }
+       .item_name{
+        color: #535766;
+        font-size: 16px;
+        line-height: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 400;
+        display: block;
+       }
+       .current{
+        font-size: 14px;
+        font-weight: 700;
+        color: #282c3f;
+       }
+       .orignal{
+        text-decoration: line-through;
+        color: #7e818c;
+        font-weight: 400;
+        margin-left: 5px;
+        font-size: 12px;
+       }
+       .discount{
+        color: #ff905a;
+        font-weight: 400;
+        font-size: 12px;
+        margin-left: 5px;
+       }
+       .add_to_bag{
+        background-color: lightgreen;
+        border: none;
+        padding: 3px 13px;
+        border-radius: 14px;
+        width: 100%;
+        margin-top: 7px;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-weight: 550;
+        font-size: 16px;
+        cursor: pointer;
+       }
+       
+
+
